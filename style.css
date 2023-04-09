@@ -1,0 +1,134 @@
+
+
+nav ul { /*converte la lista dell'html in navbar orizzontale*/
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+nav a { /*colore testi navbar*/
+    font-family: outfit;
+    color: #000000;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 20px;
+}
+
+nav a:hover {  /*quando passi il cursore nelle scritte della navbar diventano rosse e in grassetto*/
+    font-family: outfit;
+    font-weight: 600;
+    color: #F65050;
+} 
+
+header {  /*definisce la vera e propria navbar posizionando il logo sulla sinistra, la home-profilo-contatti sulla sinistra e lo sfondo bianco*/
+    background-color:#EEDEC6;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-family: outfit;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    font-size: 19px;
+}
+
+body {
+    background-color: #ccc;
+    font-family: "outfit";
+    margin: 0;
+}
+
+
+main {
+    background-color: #F7EDE2;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 85px;
+    height: 700px
+  }
+  
+  .image {
+    max-width: 100%;
+    max-height:100%;
+    padding-left: 105px;
+    width: auto;
+    height: auto;
+
+  }
+  
+  .text p {
+    align-items: left;
+    font-size: 30px;
+
+  }
+
+  .text {
+    height: 850px;
+
+  }
+  
+  .text h2 {
+    align-items: left;
+    font-size: 80px;
+    letter-spacing: -3px;
+    word-spacing: 4px; 
+    font-weight: 600;
+    height: 60px;
+
+  }
+
+  
+  .hero2image {
+    max-width: 300%;
+    max-height:300%;
+    padding-right: 25px;
+    width: auto;
+    height: auto;
+
+  }
+  
+  .hero2image img {
+    max-width: 300%;
+    max-height:300%;
+  }
+  .hero2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 85px;
+    height: 700px
+  }
+
+  .hero2 h1 {
+    align-items: left;
+    font-size: 90px;
+    letter-spacing: -3px;
+    word-spacing: 4px; 
+    font-weight: 600;
+    height: 60px;
+
+  }
+  .container-footer {
+    background-color: #EEDEC6;   
+    display: flex;
+    align-items: center;
+    padding: 55px;
+
+  }
+ 
+  .container-footer p {
+    color: #313131;
+    font-size: 15px;
+
+  }
+
